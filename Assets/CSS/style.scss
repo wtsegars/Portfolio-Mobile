@@ -1,0 +1,235 @@
+body {
+    background-color: #ffffff;
+}
+#menu {
+    overflow: hidden;
+    border: #cccccc;
+    border-style: ridge;
+    border-width: 3px;
+    ul {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px;
+        list-style: none;
+        line-height: normal;
+        background-color: #ffffff;
+    }
+    li {
+        display: inline-block;
+    }
+    a {
+        display: block;
+        padding: 0px 40px 0px 40px;
+        line-height: 70px;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500px;
+        color: #4aaaa5;
+    }
+    a:hover {
+        text-decoration: none;
+        color: #4aaaa5;
+        background-color: black;
+    }
+    .current_page_item a {
+        text-decoration: none;
+        color: #4aaaa5;
+        background-color: black;
+    }
+    .last {
+        border-right: none;
+    }
+}
+.text-box {
+    background-color: #ffffff;
+    display: block;
+    align-content: center;
+    border: #dddddd;
+    border-style: groove;
+    border-width: 3px;
+    color: #777777;
+    padding-left: 5px;
+    padding-right: 5px;
+    #width1 {
+        width: 600px;
+    }
+    #width2 {
+        width: 700px;
+    }
+    #font {
+        font-family: helvetica;
+    }
+}
+.img {
+    margin-left: 50px;
+}
+.header1 {
+    font-family: 'Georgia';
+    text-align: center;
+    color: #4aaaa5;
+}
+.img2 {
+    margin-top: -355px;
+    margin-left: 590px;
+}
+.img3 {
+    margin-top: 10px;
+    margin-left: 700px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.img4 {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.form {
+    border: #dddddd;
+    border-style: double;
+    border-width: 5px;
+    width: 638px;
+    height: 920px;
+    margin-left: 300px;
+}
+.footer {
+    background-color: #666666;
+    width: 100%;
+    height: 70px;
+    margin-top: 95px;
+}
+.card-columns {
+    -webkit-column-count:3;
+    -moz-column-count:3;
+    column-count:3;
+    -webkit-column-gap:1.25rem;
+    -moz-column-gap:1.25rem;
+    column-gap:1.25rem;
+    orphans:1;
+    widows:1;
+}
+.card {
+    position:relative;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    min-width:0;
+    word-wrap:break-word;
+    background-color:#fff;
+    background-clip:border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius:.25rem;
+}
+.text-center {
+    text-align:center!important;
+}
+.bg-info {
+    background-color:#17a2b8!important
+}
+.card-img-top {
+    width:100%;
+    border-top-left-radius:calc(.25rem - 1px);
+    border-top-right-radius:calc(.25rem - 1px)
+}
+.card-body {
+    -ms-flex:1 1 auto;
+    flex:1 1 auto;
+    padding:1.25rem
+}
+.card-text:last-child {
+    margin-bottom:0
+}
+.dummy-img {
+    object-fit: scale-down;
+}
+.sm-tb {
+    width: 338px;
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-top: 317px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+@media screen and (max-width: 980px) {
+    body {
+        background-color: darkgrey;
+    }
+    .img {
+        margin-left: -10px;
+        width: 40%;
+        float: none;
+        padding: 20px;
+    }
+    .img2 {
+        margin-left: 0px;
+        overflow: hidden;
+        width: 60%;
+        float: none;
+        padding: 375px;
+    }
+    .img3 {
+        margin-left: 550px;
+    }
+    .form {
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        background-color: darkcyan;
+    }
+    .img {
+        margin-left: -10px;
+        width: 40%;
+        float: none;
+        padding: 20px;
+    }
+    .img2 {
+        margin-left: -250px;
+        overflow: hidden;
+        width: 60%;
+        float: none;
+        padding: 375px;
+    }
+    .img3 {
+        margin-left: 300px;
+    }
+    .form {
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 640px) {
+    body {
+        background-color: darkblue
+    }
+    .img {
+        margin-left: -10px;
+        width: 40%;
+        float: none;
+        padding: 20px;
+    }
+    .img2 {
+        margin-left: -375px;
+        overflow: hidden;
+        width: 60%;
+        float: none;
+        padding: 375px;
+    }
+    .img3 {
+        margin-left: 150px;
+    }
+    h1 {
+        color: darkgrey;
+    }
+    .header {
+        color: #4aaaa5; 
+    }
+    .form {
+        margin-right: 65 px;
+        height: 856px;
+        width: 500px;
+    }
+}
